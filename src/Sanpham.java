@@ -107,7 +107,7 @@ public class Sanpham {
         System.out.println("-----------------------");
         for (int i = 0; i < n; i++) {
             System.out.println("San pham ma so " + Product[i].maSanPham + ", ten la " + Product[i].tenSanPham + " co gia " + Product[i].giaBan);
-            System.out.println("Duoc mua voi so luong la " + Product[i].soLuong + " => thanh tien: " + Product[i].thanhTien);
+            System.out.println("Duoc ban voi so luong la " + Product[i].soLuong + " => thanh tien: " + Product[i].thanhTien);
             System.out.println();
         }
     }
